@@ -1,0 +1,28 @@
+.root {
+  background-color: rgb(35, 35, 35) !important;
+  width: 400px;
+  padding: 50px;
+  border: 1px solid #545454;
+  margin: 50px auto;
+
+}
+
+.field {
+  background-color: #fff !important;
+  color: #fff;
+  margin-bottom: 20px !important;
+  border-radius: 7px;
+}
+
+.title {
+  color: #fff;
+  text-align: center !important;
+  font-weight: bold !important;
+  margin-bottom: 30px !important;
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}

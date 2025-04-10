@@ -1,0 +1,27 @@
+.root {
+  background-color: rgb(35, 35, 35) !important;
+  width: 400px;
+  padding: 50px;
+  border: 1px solid #545454;
+  margin: 50px auto;
+  color: #fff;
+}
+
+.field {
+  background-color: #fff !important;
+  color: #fff;
+  margin-bottom: 20px !important;
+  border-radius: 7px;
+  
+}
+label {
+  color: #fff !important;
+  -webkit-transform: translate(0px, -20px) scale(0.75) !important;
+  font-size: 20px !important;
+}
+.title {
+  color: #fff;
+  text-align: center !important;
+  font-weight: bold !important;
+  margin-bottom: 30px !important;
+}
