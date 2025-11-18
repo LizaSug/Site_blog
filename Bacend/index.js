@@ -49,7 +49,7 @@ app.post('/upload', checkAuth, upload.single('image'), (req, res) => {
 app.get('/tags', postController.getLastTags)
 app.get('/posts', postController.getAll)
 app.get('/posts/:id', postController.getOne)
-app.get("/posts/tags", postControllSer.getLastTags);
+app.get("/posts/tags", postController.getLastTags);
 app.post(
   "/posts",
   checkAuth,
